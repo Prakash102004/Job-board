@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Job Listings</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <input type="text" id="search-bar" placeholder="Search jobs..." onkeyup="searchJobs()">
+                <div id="search-results"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="job-listings">
+        <div class="job-card">
+            <h3>Data Scientist</h3>
+            <p>Company: DataTech</p>
+            <p>Location: San Francisco, CA</p>
+            <a href="job-detail.html?job_id=3">View Details</a>
+        </div>
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Company: DesignFlow</p>
+            <p>Location: Remote</p>
+            <a href="job-detail.html?job_id=4">View Details</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Job Board. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Employer Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="job-listings.html">Job Listings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="employer-dashboard">
+        <h2>Post New Job</h2>
+        <form id="post-job-form">
+            <label for="title">Job Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Job Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <button type="submit">Post Job</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Job Board. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
